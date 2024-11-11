@@ -25,3 +25,25 @@ body{
     border-radius: 25px;
     background-color: #d279a4;
 }
+
+.btn-container{
+    width: 50%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+
+.button{
+    width: 150px;
+    padding: 5px 10px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #ac3971;
+    border-radius:20px;
+}
+
+.button:hover{
+    transition: 1s;
+    background-color: #c6538c;
+}
