@@ -23,6 +23,21 @@
         <button type="button" class="button" onclick="StringText('wordcount')"> Word Count</button>
         <button type="button" class="button"  onclick="StringText('charactercount')"> Character Count</button>
     </div>
+
+    <script>
+        function StringText(op) 
+        {    
+            const inputElement = document.getElementById('input');
+            const outputElement = document.getElementById('output');
+    
+            switch (op) 
+            {    
+                case "uppercase":
+                    outputElement.value = inputElement.value.toUpperCase();
+                    break;
+            }
+        }
+    </script>
   
 </body>
 </html>
