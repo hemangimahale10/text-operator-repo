@@ -40,6 +40,11 @@
                     outputElement.value = inputElement.value.toLowerCase();
                 break;
 
+                case "wordcount":
+                  const totalWords = inputElement.value.split(" ").length;
+                  outputElement.value =` Word count: ${totalWords}`;
+                break;
+
             }
         }
     </script>
