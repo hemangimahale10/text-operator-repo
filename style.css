@@ -51,30 +51,59 @@ body{
 
 /* Mobile Device */
 @media screen and (max-width: 500px)
- {
-   #input{
+{
+    #input{
       width: 350px;
     }
 
-   #output{
+     #output{
        width: 350px;
     }
 
-   .text{
+    .text{
       width: 350px;
     }
 
-   .btn_Container{
-     width:400px;
-     flex-wrap: wrap;
-     justify-content: space-between;
-     margin: 20px auto;
+    .btn_Container{
+      width:400px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 20px auto;
     }
 
-   .button{
-     width:100px;
-     flex-wrap: wrap;
-     font-size:10px;
+    .button{
+      width:100px;
+      flex-wrap: wrap;
+      font-size:10px;
     }      
- }
+}
 
+
+/* Tablet */
+@media screen and (min-width: 770px) and (max-width:501px)
+{
+    #input{
+      width: 700px;
+    }
+
+    #output{
+       width: 700px;
+    }
+
+    .text{
+      width: 700px;
+    }
+
+    .btn_Container{
+      width:700px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 20px auto;
+    }
+
+    .button{
+      width: 130px;
+      flex-wrap: wrap;
+      font-size: 10px;
+    }     
+}
